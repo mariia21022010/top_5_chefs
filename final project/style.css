@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 20px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parallax{
+    background: url(dish.jpg);
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    justify-content:left;
+    align-items:end;
+}
+h3{
+    color:fuchsia;
+    font-size: 30px;
+}
+.page-content{
+    height: 100px;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center;*/
+}
+.gvozdi{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 500px;
+    color: fuchsia;  
+}
+
+.menu{
+    margin: 20px;
+    padding: 20px;
+}
+a{
+    font-family: "Press Start 2P", system-ui;
+    font-size: 15px;
+    color:white;
+    text-decoration: none;
+    padding: 20px;
+}
+.items{
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;;
+}
+.apple{
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 900px;
+    margin-right: 100px;
+    transform: rotate(45deg);
+    height: 400px; 
+    z-index: 5;
+
+}
+
+.pacman{
+    height: 70px;
+    margin: 10px 10px;
+}
+.heston{
+    margin-left: 150px;
+}
+.medal{
+    height: 200px;
+    position: absolute;
+    z-index: 10; 
+    margin-top: 390px;
+    margin-left: -100px;
+
+}
+.heston_pic{
+    height: 600px;
+    z-index: 5;
+}
+.frame{
+    z-index: -1;
+    height: 780px;
+    position: absolute;
+    margin-left: -550px;
+    margin-top: -50px;
+}
+.heston_text{
+    display: block;
+    width: 600px;
+    margin-left: 600px;
+    font-size: 20px;
+    margin-top: -570px;
+    line-height: 150%;
+}
+.painted_frame{
+    position: absolute;
+    height: 220px;
+    margin-left: 120px;
+    margin-top: -70px;
+    z-index: -1;
+}
+.heston_video{
+    margin-top: 150px;
+    margin-left: -60px;
+}
+.heston_interview{
+    height: 400px;
+    position:absolute;
+    margin-top: 700px;
+    margin-left: 320px;
+}
+.marco_frame{
+    height: 750px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 10px;
+    z-index: 10;
+
+}
+.marco_img{
+    height: 550px;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -32px;
+}
+.marco{
+    margin-left: 100px;
+}
+.marco_medal{
+    height: 300px;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 300px;
+    z-index: 15;
+}
+.marco_text{
+    display: block;
+    line-height: 150%;
+    width: 600px;
+    position: absolute;
+    margin-top: 200px;
+    font-size: 20px;
+    margin-left: 700px;
+}
+.painted_frame_marco{
+    position: absolute;
+    height: 220px;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+.marco_video{
+    position: absolute;
+    margin-top: 1000px;
+}
+.marco_interview{
+    position: absolute;
+    margin-top: 800px;
+    height: 400px;
+    margin-left: 800px;
+    
+}
+.antony{
+    margin-top: 1400px;
+}
+.antony_frame{
+    height: 750px;
+    margin-left: 50px;
+    z-index: 10;
+    position: absolute;
+}
+.antony_picture{
+    height: 570px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 170px;
+}
+.antony_medal{
+    height: 200px;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 500px;
+    z-index: 20;
+}
+.antony_text{
+    display: block;
+    line-height: 150%;
+    width: 600px;
+    position: absolute;
+    margin-top: 100px;
+    font-size: 20px;
+    margin-left: 750px;
+}
+.antony_painted_frame{
+    height: 220px;
+    position: absolute;
+    margin-left: 670px;
+}
+.antony_video{
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 100px;
+}
+.antony_interview{
+    height: 300px;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 900px;
+}
+.ferran{
+    margin-top: 1300px;
+}
+.ferran_frame{
+    margin-left: 150px;
+    z-index: 10;
+    position: absolute;
+    margin-top: 100px;
+}
+.ferran_portret{
+    height: 500px;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 255px;
+    z-index: 5;
+}
+.ferran_medal{
+    position: absolute;
+    margin-top: 650px;
+    height: 250px;
+    margin-left: 500px;
+    z-index: 30;
+}
+.ferran_painted_frame{
+    height: 200px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 670px;
+}
+.ferran_text{
+    display: block;
+    width: 600px;
+    line-height: 150%;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 750px;
+    font-size: 20px;
+}
+.ferran_interview{
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 950px;
+    height: 350px;
+}
+.ferran_video{
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 150px;
+}
+.fork{
+    height: 300px;
+    position: absolute;
+    margin-top: -260px;
+    margin-left: 500px;
+}
+.last_hr{
+    margin-top: 1600px;
+}
+.the_end{
+    height: 400px;
+    margin-top: 100px; 
+    margin-left: 450px;
+    margin-bottom: 200px;
+}
